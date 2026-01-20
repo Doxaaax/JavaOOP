@@ -1,0 +1,54 @@
+Class: Customer (inherits from User)
+Private Attributes:
+	addressLine1 - String
+	addressLine2 - String
+	town - String
+	postcode - String
+	isRegistered - boolean
+Constructors:
+	Customer()
+	Customer(Everything EXCEPT isRegistered - 8 parameters)
+
+*Create Attributes, Getters, Setters and Constructors
+*Comment your code
+----------------------------------------------------
+
+Class: Staff (inherits from User)
+Private Attributes:
+	position - String
+	salary - double
+Constructors:
+	Staff()
+	Staff(Everything - 6 parameters)
+
+
+*Create Attributes, Getters, Setters and Constructors
+*Comment your code
+
+
+----------------------------------------------------
+
+
+Class:			Clothing (inherits from Product)
+Private attributes:	measurement - String
+
+Constructors:
+	Clothing()
+	Clothing(everything EXCEPT productId - 4 parameters)
+	Clothing(everything - 5 parameters)	
+
+*Create Attributes, Getters, Setters and Constructors
+*Comment your code
+
+----------------------------------------------------
+
+Class:			Footwear (inherits from Product)
+Private attributes:	size - int
+
+Constructors:
+	Footwear()
+	Footwear(everything EXCEPT productId - 4 parameters)
+	Footwear(everything - 5 parameters)	
+
+*Create Attributes, Getters, Setters and Constructors
+*Comment your code
